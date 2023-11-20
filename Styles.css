@@ -1,0 +1,174 @@
+body{
+    background-color:grey;
+}
+.navbar{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    background-color: beige;
+    height: 40px;
+    align-items: center;
+    border-radius: 10px;
+}
+.navitem a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 15px;
+    justify-content: space-around;
+    border:1px solid white;
+    border-radius: 10px;
+}
+.footer-row{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-right: 30px;
+}
+.footer-item a{ 
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+.footer-item{
+    margin-bottom: 10px;
+}
+.homepage{
+    background-image: url("./Images/1682523868554_cropChild-FbctS-1640032193345.webp");
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 90%;
+    margin: 10px;
+    margin-left: 60px;
+    padding: 20px;
+}
+.imagetext{
+    color: black;margin-top: 100px;
+    font-size: larger;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    margin: 20px;
+}
+.card-item1{
+    display: flex;
+    flex-direction: column;justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-image: url('./Images/download.jpg');
+    height:300px;
+    width: 300px;
+    background-color: rgb(150, 211, 175);
+    text-align: center;
+    border-radius: 10px;
+    color: bisque;
+    animation-name: rotating;
+    
+}
+.card-item2{
+    display: flex;
+    flex-direction: column;justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-image: url('./Images/above-group-diverse-colleagues-formal-260nw-1727882452.webp');
+    height:300px;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    color: bisque
+}
+.card-item3{
+    display: flex;
+    flex-direction: column;justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-image: url('./Images/pexels-christina-morillo-1181625.jpg');
+    height:300px;
+    width: 300px;
+    background-color:white;
+    text-align: center;
+    border-radius: 15px;
+    color: bisque;
+
+}
+.card-item1:hover{
+    animation-name: 'rotating-card';
+}
+.card-item1 h4{
+    border-bottom: 1px solid;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.card-item2 h4{
+    border-bottom: 1px solid;
+    align-items: center;
+}
+.card-item3 h4{
+    border-bottom: 1px solid;
+    align-items: center;
+    
+}
+.learnbutton{
+    text-decoration: none;
+    width: 100px;
+    background-color: rgb(26, 138, 212);
+    height: 15px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-radius: 19px;
+    color: white;
+    
+
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border : 1px solid;
+    margin: 10px;
+    height: 300px;
+    padding: 10px;
+    background-color: black;
+    
+}
+.content-text{
+    width: 30%;
+    height: 50px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: xx-large;
+}
+.content-image{
+    height: 100px;
+    width: 300px;
+    border-radius: 12px;
+   
+    
+}
+
+@keyframes rotating-card {
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+

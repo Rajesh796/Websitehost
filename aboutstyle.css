@@ -1,0 +1,38 @@
+.navbar{
+    margin: 0px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     text-align: center;
+     background-color: aqua;
+     height: 50px;
+     align-items: center;
+     
+ }
+ .navitem a{
+     text-decoration: none;
+     color: black;
+     font-size: large;
+ }
+ .homepage{
+    background-image: url("./Images/1682523868554_cropChild-FbctS-1640032193345.webp");
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    margin: 10px;
+    margin-left: 60px;
+    padding: 20px;
+}
+.imagetext{
+    color:black;margin-top: 100px;
+    font-size: larger;
+    margin-left: 20px;
+
+}
+.abouttext{
+    margin: 10px;
+    padding: 50px;
+    font-size: larger;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
